@@ -1,0 +1,42 @@
+{
+  "name": "assignment-tracker",
+  "version": "1.0.1",
+  "description": "A webapp which helps you manage students assignments and track them easily.",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omdev420/assignment-tracker.git"
+  },
+  "keywords": [
+    "node",
+    "react",
+    "assignment",
+    "tracker",
+    "student",
+    "teacher",
+    "web"
+  ],
+  "author": "Subhankar Dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omdev420/assignment-tracker/issues"
+  },
+  "homepage": "https://github.com/omdev420/assignment-tracker#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.2",
+    "mongoose": "^6.0.9",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "nodemon": "^2.0.13",
+    "prettier": "^2.4.1"
+  }
+}
